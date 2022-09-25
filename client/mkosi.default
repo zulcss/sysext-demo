@@ -3,8 +3,8 @@ distribution=debian
 release=bullseye
 
 [Output]
-format=gpt_squashfs
-output=debian-clients.img
+format=directory
+output=debian-clients-11
 
 [Partitions]
 BaseImage=mkosi.output/debian-11-base
