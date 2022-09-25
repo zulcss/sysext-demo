@@ -1,0 +1,5 @@
+#!/bin/bash
+
+mkdir -p /usr/lib/extension-release.d/
+echo ID=debian > /usr/lib/extension-release.d/extension-release.debian
+echo SYSEXT_LEVEL=1.0 >> /usr/lib/extension-release.d/extension-release.debian

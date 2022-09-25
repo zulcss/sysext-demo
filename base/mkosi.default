@@ -1,0 +1,11 @@
+[Distribution]
+distribution=debian
+release=bullseye
+
+[Output]
+WithNetwork=yes
+output=mkosi.output/debian-11-base
+format=directory
+
+[Content]
+Packages=python3

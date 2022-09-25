@@ -1,0 +1,16 @@
+[Distribution]
+distribution=debian
+release=bullseye
+
+[Output]
+format=gpt_squashfs
+output=debian-clients.img
+
+[Partitions]
+BaseImage=mkosi.output/debian-11-base
+
+[Contents]
+WithNetwork=yes
+Packages=
+ python3-dateutil
+ python3-fmclient

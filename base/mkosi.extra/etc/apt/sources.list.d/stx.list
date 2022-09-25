@@ -1,0 +1,2 @@
+deb [trusted=yes] http://10.108.21.17:80/deb-local-binary bullseye main
+deb [trusted=yes] http://10.108.21.17:80/deb-local-build bullseye main
