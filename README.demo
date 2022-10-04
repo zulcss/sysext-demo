@@ -1,0 +1,2 @@
+sudo pip3 install asciinema
+asciinema play demo.cast
